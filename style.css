@@ -1,0 +1,75 @@
+#scram {
+    position: relative;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#container {
+    height: 500px;
+    width: 1000px;
+    font-family: "Arial";
+    position: relative;
+    overflow-x: hidden;
+    overflow: hidden;
+    display: block;
+}
+
+#timeList {
+    margin: 0;
+    height: 230px;
+    /* margin-left: 310px; */
+    /* overflow-y: auto; */
+    padding-top: 5px;
+}
+
+#timeOut {
+    font-size: 7em;
+    height: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+#stats {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stats a {
+    color: darkgoldenrod;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+}
+
+#stats span {
+    text-align: center;
+}
+
+#danhsach {
+    position: absolute;
+    text-align: center;
+    font-size: 23px;
+    align-items: center;
+    bottom: 30%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 5%;
+}
+
+.red {
+    color: red;
+}
